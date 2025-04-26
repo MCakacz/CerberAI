@@ -1,0 +1,35 @@
+ls
+ls -la
+cd ~
+pwd
+cat /etc/hosts
+mkdir test
+rmdir test
+touch file.txt
+rm file.txt
+echo "Hello"
+grep "pattern" file.txt
+find . -name "*.txt"
+ps aux
+top
+htop
+df -h
+du -sh *
+uname -a
+whoami
+date
+cal
+ping google.com
+curl -I example.com
+wget --spider example.com
+git status
+docker ps
+kubectl get pods
+vim file.txt
+nano file.txt
+tar -czvf archive.tar.gz folder/
+zip -r archive.zip folder/
+unzip archive.zip
+ssh user@host
+scp file.txt user@host:/path
+rsync -avz src/ dest/
