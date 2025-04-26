@@ -1,0 +1,14 @@
+# W main.py dodaj:
+from logger import CerberLogger
+from report_generator import ReportGenerator
+from visualizer import ReportVisualizer
+
+# Inicjalizacja
+logger = CerberLogger()
+report_generator = ReportGenerator()
+visualizer = ReportVisualizer()
+
+# Uruchom wątki
+import threading
+threading.Thread(target=ReportGenerator.run_scheduler, daemon=True).start()
+threading.Thread(target=ReportVisualizer.run_scheduler, daemon=True).start()
