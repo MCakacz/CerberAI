@@ -47,5 +47,5 @@ This tool catches:
 • Reverse shells
 • And 100+ other exploit patterns!
 
-💌 Contact: security@cerberai.com
-📄 Docs: docs.cerberai.com
+💌 Contact: gildianpk@gmail.com
+📄 Docs: https://github.com/AK4CZ/CerberAI/README.txt
